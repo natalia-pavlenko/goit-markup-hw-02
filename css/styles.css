@@ -18,6 +18,7 @@
 body {
     background-color:rgba(255, 255, 255, 1);
     font-family:var(--main-font--);
+    font-style: normal;
     color:var(--main-txt-cl--);
 }
 
@@ -45,37 +46,45 @@ body {
 }
 .page-link{
     color: var(--main-font--);
-    font-size: medium;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
+
+}
+.page-link:hover {
+    color: var(--color-accent)
 }
 .active-current {
     color: var(--color-accent);
   }
   
   .header-link{
-    color:#757575 ;
+    color:#757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .header-link:hover{
+    color: var(--color-accent)
   }
 /* hero section */
 .hero-section{
     background-color:var(--dark-bg-cl--);
 }
 .hero-title{
-    font-family: var(--main-font--);
-    font-style: normal;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.36;
     color: #FFFFFF;
 }
 
 .btn{
     background-color:#2196F3;
     font-family:var(--main-font--);
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9em;
+    line-height: 1.9;
     color: #FFFFFF;
     border: transparent;
     
@@ -90,27 +99,24 @@ body {
 
 /* skills */
 .skills-title {
-    font-family: var(--main-font--);
-    font-style: normal;
+
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
 }
 .skills-text {
-    font-family: var(--main-font--);
-    font-style: normal;
+
     font-weight: 400;
     Font-size: 14px;
-    line-height: 1.71em;
+    line-height: 1.71;
     color: #212121;
 }
 /* what we are doing */
 .section-doing-title {
-    font-family: var(--main-font--);
-    font-style: normal;
+
     font-weight: 700;
     font-size: 36px;
-    line-height:1.17em;
+    line-height:1.17;
     color: #212121;
 }
 
@@ -118,64 +124,62 @@ body {
 .team-section{
     background-color: #F5F4FA;
 }
-.team-section-title{
-    font-family: var(--main-font--);
-    font-style: normal;
+.team-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17em;
+    line-height: 1.17;
     color: #212121;
 }
-.team-section-list{
-    font-family: var(--main-font--);
-    font-style: normal;
+.team-section-list {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19em; 
-
+    line-height: 1.19; 
 }
 
 .team-section-text {
-    font-family: var(--main-font--);;
-    font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.19em;
+    line-height: 1.19;
 }
 /* page portfolio */
-.button-list > li{
-   
+
+.button-list {
     color: #212121; 
-    font-family: var(--main-font--);
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.6;
     cursor: pointer;
 }
-.btn-prtf-item {
+.btn-portfolio-item {
     background-color: #F5F4FA;
+    }
+
+.btn-portfolio-item  {
+    background-color:hover rgba(33, 150, 243, 1);
+    color:hover rgba(255, 255, 255, 1) ;
 }
-.btn-active:active {
+.btn-portfolio-item {
+    color: hover rgba(255, 255, 255, 1);
+}
+
+ .btn-active {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
   /*  project */
 .title-project {
-    font-family: var(--main-font--);
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.0em;
+    line-height: 2.0;
     color: rgba(33, 33, 33, 1)
 }
 .text-filter{
-    font-family: var(--main-font--);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.9em;
+    line-height: 1.9;
     color:rgba(117, 117, 117, 1);
    
 }
@@ -186,10 +190,15 @@ body {
 }
 .logo-footer{
     color: rgba(255, 255, 255, 1);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .address{
     color: rgba(255, 255, 255, 1);
-    
+    font-style: normal;
 }
 .footer-link{
     color:rgba(255, 255, 255, 0.6);
@@ -197,6 +206,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7em;
+    line-height: 1.7;
     
 }
