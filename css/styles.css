@@ -6,7 +6,7 @@
 /* text colors */
 --main-txt-cl--: #212121;
 --color-accent: #2196F3;
-
+--color-white: #FFFFFF;
 
 /* bg colors */
 --dark-bg-cl--: #2F303A;
@@ -144,29 +144,25 @@ body {
 }
 /* page portfolio */
 
-.button-list {
+.button {
     color: #212121; 
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     cursor: pointer;
-}
-.btn-portfolio-item {
     background-color: #F5F4FA;
     }
 
-.btn-portfolio-item  {
-    background-color:hover rgba(33, 150, 243, 1);
-    color:hover rgba(255, 255, 255, 1) ;
-}
-.btn-portfolio-item {
-    color: hover rgba(255, 255, 255, 1);
+.button.current {
+ color: var(--color-white);
+ background-color: var(--color-accent);
 }
 
- .btn-active {
-    color: #FFFFFF;
-    background-color: #2196F3;
+.button:active, .button:focus, .button:hover {
+    color:var(--color-white);
+    background-color: var(--color-accent);
+
 }
 
   /*  project */
@@ -208,4 +204,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     
+}
+.footer-link:hover,.footer-link:focus {
+    color: var(--color-white)
 }
